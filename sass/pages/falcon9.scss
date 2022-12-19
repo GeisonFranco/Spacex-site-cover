@@ -1,0 +1,106 @@
+.container00 {
+  &.container05 {
+    background-image: url(../../images/falcon9/01.jpg);
+  }
+  &.carousel01 {
+    background-image: url(../../images/falcon9/02.jpg);
+  }
+  &.carousel02 {
+    background-image: url(../../images/falcon9/03.jpg);
+  }
+  &.carousel03 {
+    background-image: url(../../images/falcon9/04.jpg);
+  }
+  &.carousel04 {
+    background-image: url(../../images/falcon9/05.jpg);
+  }
+  &.carousel05 {
+    background-image: url(../../images/falcon9/06.jpg);
+  }
+  &.container07 {
+    background-image: url(../../images/falcon9/08.jpg);
+  }
+}
+.titleFalcon9 {
+  font-size: 60px;
+  font-family: "rubik", sans-serif;
+  font-weight: 514;
+}
+.titleContent {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  justify-content: center;
+}
+.numbers {
+  background-color: black;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 88px;
+  height: 30px;
+
+  .titleNumb {
+    font-size: 90px;
+  }
+  .subTitleNumb {
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.falcon9Desc {
+  font-size: 22px;
+  width: 640;
+  line-height: 50px;
+}
+.containerFalcon9Desc {
+  display: grid;
+  height: 90vh;
+  align-items: center;
+  justify-content: left;
+}
+#overViewPosition {
+  width: 500px;
+  margin-left: 13%;
+  padding-top: 15%;
+}
+.carrosselSlide {
+  img {
+    height: 100vh;
+  }
+}
+.carouselText {
+  background-color: black;
+}
+.downloadDesc {
+  background-color: black;
+  height: 85vh;
+  padding-top: 240px;
+  a {
+    text-decoration: none;
+    color: $copy-color;
+    &:hover {
+      color: $link-hover;
+    }
+  }
+  .btn {
+    border: 2px solid white;
+    margin-right: 10px;
+    margin-top: 24px;
+  }
+}
+@media (max-width: 968px) {
+  .numbers {
+    .titleNumb {
+      font-size: auto;
+      line-height: auto;
+    }
+    .subTitleNumb {
+      font-size: 20px;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.header {
+  font-size: 12px;
+}
+#navItem {
+  &:hover {
+    color: $link-hover;
+  }
+}
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.arrowDown {
+  display: inline-block;
+  width: 90px;
+  margin-top: 5px;
+}
+.logoPc {
+  width: 340px;
+  margin-left: -10px;
+  margin-right: 100px;
+}
+// Media query
+@media (max-width: 405px) {
+  .logoPc {
+    width: auto;
+    margin-top: auto;
+  }
+  .footer {
+    font-size: auto;
+  }
+}
+@media (max-width: 350px) {
+  .logoPc {
+    width: auto;
+    margin-top: auto;
+  }
+}

@@ -1,0 +1,59 @@
+.container00 {
+  &.container01 {
+    background-image: url(../../images/minhas/grande\ fumaça.png);
+  }
+  &.container02 {
+    background-image: url(../../images/minhas/desfoque.jpg);
+  }
+  &.container03 {
+    background-image: url(../../images/homeimg/02.gif);
+  }
+  &.container04 {
+    background-image: url(../../images/minhas/primeira\ p2.jpg);
+  }
+}
+.titlePadding {
+  padding-top: 200px;
+}
+
+.shortTitle {
+  width: 550px;
+  margin-bottom: 25px;
+}
+.mediumTitle {
+  width: 650px;
+  margin-bottom: 25px;
+}
+#button {
+  padding: $padding-button;
+}
+.footer {
+  background-color: black;
+  height: 15vh;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  a {
+    text-decoration: none;
+    color: white;
+    &:hover {
+      color: $link-hover;
+    }
+  }
+  .copyGf {
+    color: gray;
+  }
+}
+
+@media (max-width: 750px) {
+  .titlePadding {
+    padding-top: auto;
+  }
+  .shortTitle,
+  .mediumTitle {
+    width: auto;
+    font-size: auto;
+  }
+}
